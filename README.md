@@ -100,7 +100,7 @@ To select with experiment has to be run, just modify the variable experiment_to_
 
 
 | Operation        | Description           | Option (variable experiment_to_run)  |
-| ------------- |:--------------------:| ------------:|
+| ------------- |:--------------------:| :------------:|
 | train     | train the network with the parameters defined in script_main_train_test | train |
 | eval confidence matrix     | Evaluate the performance of the network in terms of confusion matrix  (Window based evaluation)  |   eval_conf_matrix |
 | eval time measures     | Evaluate the performance of the network in terms of time measures ( gpu or cpu)    |   eval_time_measure_gpu / eval_time_measure_cpu |
