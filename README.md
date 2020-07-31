@@ -54,14 +54,13 @@ python main_data_load.py <br>
 It creates a folder input_waveform_aolivares_data/ with all the waveforms of the dataset <br>
 
 
-To run the examples just call:
+### Train the model
 
-
-Training and testing with the data splitted between train and test:
-python main_train_test_simbiots.py 
+To run the experiments in the paper, the main_train_test.py program is provided.
 
 The following parameters are accessible via command line:
-usage: main_train_test.py 
+
+main_train_test.py 
 optional arguments:
 -h, --help            show this help message and exit
 -  --hidden_size HIDDEN_SIZE
@@ -83,12 +82,16 @@ optional arguments:
 -  --compute_conf_matrix
                         Generate conf matrix
   
-Once the network has been trained, it can be used to detect with the Confidence-Based Evaluation defined in the paper:    
-python main_train_test_simbiots.py 
+### Test the model
 
-                    
+Once the network has been trained, it can be used to detect with the Confidence-Based Evaluation defined in the paper: <br>
+python main_eval_confidence_based_decision.py
 
-  
+<br>
+
+
+### Reproduce RO-MAN article results
+
 To reproduce all the results from the RO-MAN article, the script script_main_train_test.py calls main_train_test.py 
 with all the configuration options used in the paper:  
 python script_main_train_test.py
