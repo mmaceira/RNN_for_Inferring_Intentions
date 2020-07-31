@@ -37,15 +37,21 @@ The dataset used in this work is Force-based human intention inference.
 It can be downloaded from:
 https://zenodo.org/record/3522205#.XqG1F_mxU5k  
 
-After downloading and unzipping it, it has to be stored to expected location as follows:
+After downloading and unzipping it, it has to be stored in a force_based_human_intention_inference inside this repo as follows:
 
-mv force-based-human-intention-inference-v1.0/albertoOA-force-based-human-intention-inference-d4e48c5/ RNN_for_Inferring_Intentions/
+cp -r ~/Downloads/force-based-human-intention-inference-v1.0/albertoOA-force-based-human-intention-inference-d4e48c5/ RNN_for_Inferring_Intentions/force_based_human_intention_inference
 
 
 ## Experiments: 
 
-Simple main to load the dataset data, it checks that the dataset has been downloaded and stored correctly:
-python main_data_load.py 
+
+### Check dataset
+
+You can check that the dataset is stored correctly with: \s\s
+
+python main_data_load.py \s\s
+
+It creates a folder input_waveform_aolivares_data/ with all the waveforms of the dataset \s\s
 
 
 To run the examples just call:
