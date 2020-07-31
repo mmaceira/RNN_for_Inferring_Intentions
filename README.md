@@ -38,7 +38,7 @@ It can be downloaded from:
 https://zenodo.org/record/3522205#.XqG1F_mxU5k  
 
 After downloading and unzipping it, it has to be stored to expected location  
-Download and unzip from https://zenodo.org/record/3522205#.XqG1F_mxU5k  
+
 mv /home/mmaceira/Downloads/force-based-human-intention-inference-v1.0/albertoOA-force-based-human-intention-inference-d4e48c5/ RNN_for_Inferring_Intentions/
 
 
