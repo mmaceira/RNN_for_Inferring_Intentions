@@ -47,11 +47,11 @@ cp -r ~/Downloads/force-based-human-intention-inference-v1.0/albertoOA-force-bas
 
 ### Check dataset
 
-You can check that the dataset is stored correctly with: \s\s
+You can check that the dataset is stored correctly with: <br>
 
-python main_data_load.py \s\s
+python main_data_load.py <br>
 
-It creates a folder input_waveform_aolivares_data/ with all the waveforms of the dataset \s\s
+It creates a folder input_waveform_aolivares_data/ with all the waveforms of the dataset <br>
 
 
 To run the examples just call:
