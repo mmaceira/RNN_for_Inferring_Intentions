@@ -1,7 +1,9 @@
 # Recurrent Neural Networks for Inferring Intentions in Shared Tasks for Industrial Collaborative Robots
 Repository with the implementation of RO-MAN article 
 
-Recurrent Neural Networks for Inferring Intentions in Shared Tasks for Industrial Collaborative Robots
+**Recurrent Neural Networks for Inferring Intentions in Shared Tasks for Industrial Collaborative Robots**
+
+### Abstract 
 
 Industrial robots are evolving to work closely with humans in shared spaces. Hence, robotic tasks are increasingly 
 shared between humans and robots in collaborative settings. To enable a fluent human robot collaboration, 
